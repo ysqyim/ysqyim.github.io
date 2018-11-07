@@ -7,7 +7,7 @@ searchButton.addEventListener("click", getGiphy);
 function getGiphy() {
 
 	
-    fetch("http://api.giphy.com/v1/gifs/search?q=" + searchWord.value  + "&api_key=1YOfE5g6JayGlLiiyR3EoIWra4MSNMTm&limit=30")
+    fetch("https://api.giphy.com/v1/gifs/search?q=" + searchWord.value  + "&api_key=1YOfE5g6JayGlLiiyR3EoIWra4MSNMTm&limit=30")
 	
     .then((giphy) => giphy.json())
 	
