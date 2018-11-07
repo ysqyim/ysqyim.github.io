@@ -1,0 +1,65 @@
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    display: relative;
+}
+
+#container {
+    align-items: center;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    height: 50px;
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#searchInput {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.5px;
+    display: inline;
+    background-color: white;
+    font-size: 20px;
+    height: 30px;
+    width: 60%;
+    border: none;
+    border-radius: 3px;
+    padding-left: 20px;
+}
+
+#searchButton {
+    font-family: 'Mukta Mahee', sans-serif;
+    letter-spacing: 3px;
+    width: 35%;
+    height: 30px;
+    display:inline;
+    background-color: yellow;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#resultContainer {
+    padding-top: 20px;
+    width: 100vw;
+    min-width: 480px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.giphyImage {
+    width: 300px;
+    height: auto;
+}
+
